@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "bcrypt": "^3.0.2",
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.6",
+    "path": "^0.12.7",
+    "sequelize": "^4.41.2"
+  }
+}

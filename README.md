@@ -7,3 +7,4 @@
 - 打开数据库，建立数据库todolist,然后在server文件夹里运行`node app.js`,就会在数据库todolist里面建立`user`表和`list`表，然后在user表建立一个用户密码一定
 要是$10$z10BtEpwAvRmRwb68jbCpu6NIMfmLy/tWtFHTkSRFJ8FytPVSXds6表示123456
 - 然后就可以在localhost:8889里面进行登录
+- 我参考一位大佬的教程写的：https://molunerfinn.com/Vue+Koa/#%E7%AE%80%E4%BB%8B这位大佬的博客写的比较细

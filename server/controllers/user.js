@@ -18,12 +18,13 @@ const getUserInfo = async function(ctx){
 // 验证用户登录
 const postUserAuth = async function(ctx){
 	const data = ctx.request.body // post过来的数据存在request.body里
-	
-	const userInfo = await user.getUserByName(data.user_name) // 根据用户名获取客户信息
-	/*ctx.body = {
-		
-		userInfo,
-	}*/
+	console.log('mingzi'+data.user_name)
+	let userInfo = '1'
+	userInfo = await user.getUserByName(data.user_name) // 根据用户名获取客户信息
+	//console.log(userInfo) */
+	/* ctx.body = {
+		userInfo,	
+	} */
 	
 	if(userInfo == null){ // 用户不存在
 		ctx.body={
@@ -49,7 +50,7 @@ const postUserAuth = async function(ctx){
 				id:userInfo.id
 			}
 		}
-	}
+	} 
 }
 module.exports = {
 	getUserInfo,	// 在路由层面使用 // 获取用户信息

@@ -47,7 +47,7 @@ router.use('/auth', auth.routes()) // 在auth的路径之下
 router.use('/api', api.routes()) // 这样就在api的路径之下
 
 app.use(router.routes()) //将路由规则挂载到 Koa 上
-app.listen(8889, () => {
+app.listen(8889,'0.0.0.0', () => {
 	console.log('Koa is listening in 8889')
 })
 
